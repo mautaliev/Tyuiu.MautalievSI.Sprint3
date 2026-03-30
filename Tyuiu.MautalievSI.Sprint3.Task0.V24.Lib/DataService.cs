@@ -14,7 +14,7 @@ namespace Tyuiu.MautalievSI.Sprint3.Task0.V24.Lib
                 result *= term;
             }
 
-            return result;
+            return Math.Round(result, 3);
         }
     }
 }
