@@ -1,18 +1,12 @@
-﻿int a = 6;
-int b = 4;
-int c = 8;
-int d = 7;
-int i = 1;
+﻿string str = "Gfvsvm sdefg cvdffgg vgrtg";
+int count = 0;
 
-do
+foreach (char ch in str)
 {
-    b++;
-    b = a + c;
-    c = b - a;
-    d = (a - c) - i;
-    i++;
+    if (ch == 'g')
+    {
+        count++;
+    }
 }
-while (i < 4);
 
-Console.WriteLine(d);
-Console.WriteLine(d);
+Console.WriteLine(count);
