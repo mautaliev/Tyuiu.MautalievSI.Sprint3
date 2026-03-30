@@ -16,7 +16,7 @@ namespace Tyuiu.MautalievSI.Sprint3.Task5.V8.Lib
                 }
             }
 
-            double result = sum + 3;
+            double result = sum;
 
             return Math.Round(result, 3);
         }
