@@ -15,7 +15,7 @@ namespace Tyuiu.MautalievSI.Sprint3.Task1.V20.Lib
                 k++;
             }
 
-            return sum;
+            return Math.Round(sum, 3);
         }
     }
 }
