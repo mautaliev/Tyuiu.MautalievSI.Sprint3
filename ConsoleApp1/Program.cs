@@ -1,12 +1,16 @@
-﻿string str = "Gfvsvm sdefg cvdffgg vgrtg";
-int count = 0;
+﻿int x;
+double sp = 1;
+int i = 0;
 
-foreach (char ch in str)
+for (x = -2; x <= 2; x++)
 {
-    if (ch == 'g')
+    if (x == 0)
     {
-        count++;
+        continue;
     }
+
+    sp = sp * (2 * x + 2);
+    i++;
 }
 
-Console.WriteLine(count);
+Console.WriteLine(sp);
