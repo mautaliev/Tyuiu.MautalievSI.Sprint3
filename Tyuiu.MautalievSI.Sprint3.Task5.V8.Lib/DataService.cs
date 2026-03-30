@@ -12,7 +12,7 @@ namespace Tyuiu.MautalievSI.Sprint3.Task5.V8.Lib
             {
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
-                    sum += 1 / Math.Sin(k);
+                    sum += 1 / Math.Sin(k) + 3;
                 }
             }
 
